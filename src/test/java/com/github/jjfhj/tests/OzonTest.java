@@ -10,6 +10,8 @@ import static com.codeborne.selenide.CollectionCondition.texts;
 import static com.codeborne.selenide.Selenide.*;
 import static com.github.jjfhj.tests.TestData.OZON_URL;
 
+@DisplayName("Функционал поиска веб-приложения Ozon")
+
 public class OzonTest extends TestBase {
 
     @ValueSource(strings = {"Всё о Муми-троллях. Книга 1", "Всё о Муми-троллях. Книга 2"})
