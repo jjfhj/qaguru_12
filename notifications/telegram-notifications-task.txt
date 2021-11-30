@@ -1,0 +1,8 @@
+// local
+java  \
+"-DprojectName=qaguru_12" \
+"-Denv=TEST" \
+"-DreportLink=BUILD_URL" \
+"-Dcomm=Allure notifications" \
+"-Dconfig.file=notifications/telegram.json" \
+-jar allure-notifications-3.1.2.jar
